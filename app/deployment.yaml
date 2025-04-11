@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mock-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mock-app
+  template:
+    metadata:
+      labels:
+        app: mock-app
+    spec:
+      containers:
+      - name: app
+        image: mock-app:latest  # Use `minikube image build` to load this image
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080
+        volumeMounts:
+        - name: log-volume
+          mountPath: /var/log
+      volumes:
+      - name: log-volume
+        emptyDir: {}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mock-app-service
+spec:
+  selector:
+    app: mock-app
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 8080
+
