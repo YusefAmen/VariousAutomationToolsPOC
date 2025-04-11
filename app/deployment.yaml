@@ -12,19 +12,47 @@ spec:
       labels:
         app: mock-app
     spec:
-      containers:
-      - name: app
-        image: mock-app:latest  # Use `minikube image build` to load this image
-        imagePullPolicy: Never
-        ports:
-        - containerPort: 8080
-        volumeMounts:
-        - name: log-volume
-          mountPath: /var/log
       volumes:
-      - name: log-volume
-        emptyDir: {}
-
+        - name: log-volume
+          emptyDir: {}
+        - name: mtail-progs
+          emptyDir: {}
+      initContainers:
+        - name: mtail-prog-injector
+          image: busybox
+          command:
+            - sh
+            - -c
+            - |
+              mkdir -p /etc/mtail && echo 'counter errors_500_total
+/\\[ERROR\\] status=500/ {
+  errors_500_total++
+}' > /etc/mtail/metrics.mtail
+          volumeMounts:
+            - name: mtail-progs
+              mountPath: /etc/mtail
+      containers:
+        - name: app
+          image: mock-app:latest
+          imagePullPolicy: Never
+          command: ["python", "app.py"]
+          ports:
+            - containerPort: 8080
+          volumeMounts:
+            - name: log-volume
+              mountPath: /var/log
+        - name: mtail
+          image: ghcr.io/google/mtail:latest
+          args:
+            - "--progs=/etc/mtail"
+            - "--logs=/var/log/app.log"
+          ports:
+            - containerPort: 3903
+          volumeMounts:
+            - name: log-volume
+              mountPath: /var/log
+            - name: mtail-progs
+              mountPath: /etc/mtail
 ---
 apiVersion: v1
 kind: Service
@@ -34,7 +62,10 @@ spec:
   selector:
     app: mock-app
   ports:
-  - protocol: TCP
-    port: 80
-    targetPort: 8080
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+    - protocol: TCP
+      port: 3903
+      targetPort: 3903
 

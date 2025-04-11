@@ -44,12 +44,15 @@ def index():
     return "Mock service running.\n"
 
 # Start background traffic simulation
-@app.before_first_request
-def launch_simulation():
+#@app.before_first_request
+#def launch_simulation():
+#    t = threading.Thread(target=simulate_requests)
+#    t.daemon = True
+#    t.start()
+
+if __name__ == "__main__":
     t = threading.Thread(target=simulate_requests)
     t.daemon = True
     t.start()
-
-if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
 
