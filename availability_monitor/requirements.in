@@ -1,0 +1,5 @@
+# requirements.in
+
+pyyaml
+requests
+aiohttp

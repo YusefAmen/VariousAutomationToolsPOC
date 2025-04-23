@@ -1,0 +1,111 @@
+- name: sample body up (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/body
+  method: POST
+  headers:
+    content-type: application/json
+  body: '{"foo":"bar"}'
+- name: sample index up (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/
+- name: sample body down (expected-down)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/body
+  method: POST
+  headers:
+    content-type: application/json
+  body: '{}'
+- name: sample error down (expected-down)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/error
+- name: sample ignore port (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com:443/error
+- name: sample another domain (expected-up)
+  url: https://google.com
+- name: test-1-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/0
+- name: test-2-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/1
+- name: test-3-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/2
+- name: test-4-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/3
+- name: test-5-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/4
+- name: test-6-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/5
+- name: test-7-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/6
+- name: test-8-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/7
+- name: test-9-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/8
+- name: test-10-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/9
+- name: test-11-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/10
+- name: test-12-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/11
+- name: test-13-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/12
+- name: test-14-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/13
+- name: test-15-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/14
+- name: test-16-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/15
+- name: test-17-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/16
+- name: test-18-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/17
+- name: test-19-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/18
+- name: test-20-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/19
+- name: test-21-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/20
+- name: test-22-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/21
+- name: test-23-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/22
+- name: test-24-GET (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/23
+- name: invalid domain (expected-down)
+  url: http://nonexistent.local
+- name: timeout test (expected-down)
+  url: https://10.255.255.1
+- name: malformed URL (expected-down)
+  url: https://
+- name: http instead of https (expected-up)
+  url: http://example.com
+- name: unauthorized (expected-down)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/auth-required
+- name: redirect test (expected-redirect)
+  url: http://github.com
+- name: bad method (expected-down)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/
+  method: BADMETHOD
+- name: get with headers (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/
+  headers:
+    Accept: application/json
+- name: get with query params (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/?test=1
+- name: post text body (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/text
+  method: POST
+  headers:
+    content-type: text/plain
+  body: plain text
+- name: put test (expected-up)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/update
+  method: PUT
+  headers:
+    content-type: application/json
+  body: '{"update":"true"}'
+- name: delete test (expected-down)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/delete
+  method: DELETE
+- name: patch test (expected-down)
+  url: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/patch
+  method: PATCH
+  headers:
+    content-type: application/json
+  body: '{"patch":"true"}'
+

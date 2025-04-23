@@ -1,0 +1,4 @@
+2025-04-18 10:15:03 host1 GET /api/user 200
+2025-04-18 10:15:04 host2 GET /api/product 404
+2025-04-18 10:15:05 host1 GET /api/user 500
+

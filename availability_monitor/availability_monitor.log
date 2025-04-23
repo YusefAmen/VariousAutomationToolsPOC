@@ -1,0 +1,111 @@
+2025-04-17 18:10:42,493 [ERROR] Usage: python monitor.py <config_file_path>
+2025-04-17 18:11:45,578 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:45 | Method: POST | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/body
+2025-04-17 18:11:45,578 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:45 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/
+2025-04-17 18:11:45,579 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:45 | Method: POST | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/body
+2025-04-17 18:11:45,579 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:45 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/error
+2025-04-17 18:11:45,579 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:45 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/error
+2025-04-17 18:11:45,579 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:45 | Method: GET | URL: https://google.com
+2025-04-17 18:11:45,926 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:45 | Elapsed: 0.347s | Status: 422
+2025-04-17 18:11:45,945 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:45 | Elapsed: 0.366s | Status: 200
+2025-04-17 18:11:45,945 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:45 | Elapsed: 0.367s | Status: 422
+2025-04-17 18:11:45,948 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:45 | Elapsed: 0.37s | Status: 200
+2025-04-17 18:11:46,780 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:46 | Elapsed: 1.201s | Status: 500
+2025-04-17 18:11:46,781 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:46 | Elapsed: 1.202s | Status: 500
+2025-04-17 18:11:46,782 [INFO] dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com has 20% availability percentage
+2025-04-17 18:11:46,783 [INFO] google.com has 100% availability percentage
+2025-04-17 18:11:46,783 [INFO] -------------------------
+2025-04-17 18:11:51,284 [INFO] Monitoring stopped by user.
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: POST | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/body
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: POST | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/body
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/error
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/error
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://google.com
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/0
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/1
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/2
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/3
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/4
+2025-04-17 18:11:56,615 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/5
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/6
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/7
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/8
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/9
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/10
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/11
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/12
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/13
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/14
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/15
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/16
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/17
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/18
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/19
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/20
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/21
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/22
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/test/23
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: http://nonexistent.local
+2025-04-17 18:11:56,616 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://10.255.255.1
+2025-04-17 18:11:56,617 [WARNING] Exception cleaning URL: Invalid URL: https://
+2025-04-17 18:11:56,618 [WARNING] Skipping request: Invalid URL -> None
+2025-04-17 18:11:56,618 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: http://example.com
+2025-04-17 18:11:56,618 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/auth-required
+2025-04-17 18:11:56,618 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: http://github.com
+2025-04-17 18:11:56,619 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: BADMETHOD | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/
+2025-04-17 18:11:56,619 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/
+2025-04-17 18:11:56,619 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: GET | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/?test=1
+2025-04-17 18:11:56,619 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: POST | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/text
+2025-04-17 18:11:56,619 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: PUT | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/update
+2025-04-17 18:11:56,619 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: DELETE | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/delete
+2025-04-17 18:11:56,619 [INFO] [HTTP REQUEST START] 2025-04-17 18:11:56 | Method: PATCH | URL: https://dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com/patch
+2025-04-17 18:11:56,886 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.268s | Status: 200
+2025-04-17 18:11:56,917 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.298s | Status: 404
+2025-04-17 18:11:56,919 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.303s | Status: 404
+2025-04-17 18:11:56,946 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.332s | Status: 422
+2025-04-17 18:11:56,962 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.347s | Status: 200
+2025-04-17 18:11:56,973 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.354s | Status: 404
+2025-04-17 18:11:56,975 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.356s | Status: 404
+2025-04-17 18:11:56,975 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.359s | Status: 404
+2025-04-17 18:11:56,975 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.36s | Status: 404
+2025-04-17 18:11:56,975 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.357s | Status: 200
+2025-04-17 18:11:56,975 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.357s | Status: 405
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.36s | Status: 404
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.36s | Status: 404
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.359s | Status: 404
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.36s | Status: 404
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.36s | Status: 404
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.36s | Status: 404
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.357s | Status: 200
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.36s | Status: 404
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.361s | Status: 404
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.36s | Status: 404
+2025-04-17 18:11:56,976 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.358s | Status: 404
+2025-04-17 18:11:56,977 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.361s | Status: 404
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.363s | Status: 422
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.362s | Status: 404
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.362s | Status: 404
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.362s | Status: 404
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.362s | Status: 404
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.363s | Status: 200
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.359s | Status: 404
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.362s | Status: 404
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.362s | Status: 404
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.363s | Status: 404
+2025-04-17 18:11:56,978 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.362s | Status: 404
+2025-04-17 18:11:56,979 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.363s | Status: 404
+2025-04-17 18:11:56,979 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.362s | Status: 404
+2025-04-17 18:11:56,983 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:56 | Elapsed: 0.367s | Status: 404
+2025-04-17 18:11:57,227 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:57 | Elapsed: 0.609s | Status: 200
+2025-04-17 18:11:57,723 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:57 | Elapsed: 1.107s | Status: 500
+2025-04-17 18:11:57,728 [INFO] [HTTP REQUEST END] 2025-04-17 18:11:57 | Elapsed: 1.113s | Status: 500
+2025-04-17 18:12:01,623 [ERROR] Request failed for http://nonexistent.local: Cannot connect to host nonexistent.local:80 ssl:default [nodename nor servname provided, or not known]
+2025-04-17 18:12:27,573 [ERROR] Request failed for https://10.255.255.1: Connection timeout to host https://10.255.255.1
+2025-04-17 18:12:27,575 [INFO] dev-sre-take-home-exercise-rubric.us-east-1.recruiting-public.fetchrewards.com has 8% availability percentage
+2025-04-17 18:12:27,575 [INFO] google.com has 100% availability percentage
+2025-04-17 18:12:27,575 [INFO] nonexistent.local has 0% availability percentage
+2025-04-17 18:12:27,575 [INFO] 10.255.255.1 has 0% availability percentage
+2025-04-17 18:12:27,575 [INFO] example.com has 100% availability percentage
+2025-04-17 18:12:27,575 [INFO] github.com has 0% availability percentage
+2025-04-17 18:12:27,576 [INFO] -------------------------
+2025-04-17 18:12:35,535 [INFO] Monitoring stopped by user.
